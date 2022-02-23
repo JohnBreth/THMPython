@@ -1,5 +1,6 @@
 #The script will use a list of potential subdomains and prepends them to the domain name provided via a command-line argument.
 #The script then tries to connect to the subdomains and assumes the ones that accept the connection exist.
+#Example: python3 subdomenum.py espn.com
 
 import requests
 import sys
